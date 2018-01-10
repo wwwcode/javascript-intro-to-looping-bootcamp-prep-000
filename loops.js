@@ -1,6 +1,6 @@
 var makeArray = [];
 function forLoop(){
-  for ( i = 0; i < 27; i++) {
+  for ( i = 0; i < 25; i++) {
      makeArray.push("I am " + i +" strange loop" + (i === 0 ? "":"s")+ ".");
 }
          return [makeArray]
