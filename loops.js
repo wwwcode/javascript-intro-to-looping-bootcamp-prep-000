@@ -15,9 +15,9 @@ var n = 0;
 function whileLoop(n){
 
      while (n > 0) {
-    console.log("done", n);
-      n--;
+    console.log(--n);
   }
+  return 'drone'
 }
 function doWhileLoop(array){
   var makeArray = [];
