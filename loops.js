@@ -1,9 +1,9 @@
-var makeArray = [];
-function forLoop(){
+
+function forLoop(array){
   for (let i = 0; i < 25; i++) {
-     makeArray.push("I am " + i +" strange loop" + (i === 0 ? "":"s")+ ".");
+     array.push("I am " + i +" strange loop" + (i === 0 ? "":"s")+ ".");
 }
-         return [makeArray]
+         return [array]
 }
 
 
