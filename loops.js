@@ -5,6 +5,8 @@ function forLoop(){
 }
          return [makeArray]
 }
+
+
 var n = 0;
 function whileLoop(n){
 
