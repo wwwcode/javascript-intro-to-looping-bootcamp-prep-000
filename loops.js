@@ -19,13 +19,16 @@ function whileLoop(n){
   }
   return 'done'
 }
+
+
 function doWhileLoop(array){
-  var makeArray = [];
-  makeArray.length = l;
+     maybeTrue() {
+        return Math.random() >= 0.5
+     }
       do{
-           true
+           array = array.slice(1)
          }
-        while (makeArray.lenth < array );
-        return false
+        while (makeArray.lenth > maybeTrue())
+        return array
 
 }
