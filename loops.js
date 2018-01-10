@@ -23,12 +23,12 @@ function whileLoop(n){
 
 function doWhileLoop(array){
      maybeTrue() {
-        return Math.random() >= 0.5
+        return Math.random() >= 0.5;
      }
       do{
-           array = array.slice(1)
+           array = array.slice(1);
          }
-        while (makeArray.lenth > maybeTrue())
-        return array
+        while (array.lenth > 0 && maybeTrue());
+        return array;
 
 }
